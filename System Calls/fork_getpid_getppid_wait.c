@@ -19,3 +19,10 @@ int main() {
 		printf("Parent id : %d\n", getpid());
 	}
 }
+
+/*
+Child id : 13960
+Parent id : 13959
+Parent present
+Parent id : 13959
+*/
