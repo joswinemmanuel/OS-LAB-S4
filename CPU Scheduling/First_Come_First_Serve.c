@@ -53,3 +53,28 @@ int main() {
     printf("\nThe average waiting time is : %.2f \n", avgWT);
     printf("The average turn around time is : %.2f \n", avgTT);
 }
+
+/*
+Enter the number of process : 5
+
+Enter the arrival time of P0 : 2
+Enter the burst time of P0 : 6
+Enter the arrival time of P1 : 5
+Enter the burst time of P1 : 2
+Enter the arrival time of P2 : 1
+Enter the burst time of P2 : 8
+Enter the arrival time of P3 : 0
+Enter the burst time of P3 : 3
+Enter the arrival time of P4 : 4
+Enter the burst time of P4 : 4
+
+process	arr	tt	wt
+P0	0	3	0
+P1	1	10	2
+P2	2	15	9
+P3	4	17	13
+P4	5	18	16
+
+The average waiting time is : 8.00 
+The average turn around time is : 12.60 
+*/
