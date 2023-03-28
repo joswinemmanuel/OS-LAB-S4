@@ -126,3 +126,22 @@ int main()
 	printf("\nAverage turn around time : %f\n", tat);
 	
 }
+
+/*
+Enter the number of processes: 3
+Enter the arrival time for the process1: 0
+Enter the burst time for the process1: 4
+Enter the arrival time for the process2: 0
+Enter the burst time for the process2: 3
+Enter the arrival time for the process3: 0
+Enter the burst time for the process3: 5
+Enter time quantum: 2
+
+Process		Arrival Time	Burst Time	Waiting time	Turn around time
+1		0		4		4		8
+2		0		3		6		9
+3		0		5		7		12
+
+Average waiting time     : 5.666667
+Average turn around time : 9.666667
+*/
