@@ -129,7 +129,7 @@ Average waiting time: 9.250000
 Average turn around time: 15.250000
 
 
---------------------------------------------------------------------------
+---------------------------------------------------------------------------
 
 Enter number of processes: 5
 Enter arrival time for process1: 0
