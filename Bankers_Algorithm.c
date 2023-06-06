@@ -67,39 +67,17 @@ void main() {
 /*
 Enter the number of processes : 5
 Enter the number of resources : 3
-Enter the available resources : 3
-3
-2
-Enter the max of the process P0 : 7
-5
-3
-Enter the allocation of the process P0 : 0
-1 
-0
-Enter the max of the process P1 : 3
-2
-2
-Enter the allocation of the process P1 : 2
-0
-0
-Enter the max of the process P2 : 9
-0
-2
-Enter the allocation of the process P2 : 3
-0
-2
-Enter the max of the process P3 : 2
-2
-2
-Enter the allocation of the process P3 : 2
-1
-1
-Enter the max of the process P4 : 4
-3
-3
-Enter the allocation of the process P4 : 0
-0
-2
+Enter the available resources : 3 3 2
+Enter the max of the process P0 : 7 5 3
+Enter the allocation of the process P0 : 0 1 0
+Enter the max of the process P1 : 3 2 2
+Enter the allocation of the process P1 : 2 0 0
+Enter the max of the process P2 : 9 0 2
+Enter the allocation of the process P2 : 3 0 2
+Enter the max of the process P3 : 2 2 2
+Enter the allocation of the process P3 : 2 1 1
+Enter the max of the process P4 : 4 3 3
+Enter the allocation of the process P4 : 0 0 2
 
 Allocation	Max	Need
 0 1 0 		7 5 3 	7 4 3 
@@ -109,5 +87,5 @@ Allocation	Max	Need
 0 0 2 		4 3 3 	4 3 1 
 
 Safe Sequence : 
-<P1 P3 P4 P0 P2 >
+< P1 P3 P4 P0 P2 >
 */
