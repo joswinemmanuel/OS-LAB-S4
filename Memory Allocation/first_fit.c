@@ -38,4 +38,17 @@ void main() {
 	  	}
 	}
 	printf("\n");     
-} 
+}
+
+/*
+Enter the number of blocks : 5
+Enter the number of jobs : 4
+Enter the size of blocks : 100 500 200 300 600
+Enter the size of process : 212 417 112 426
+
+STATUS 
+212 Job is inserted into the block 500 
+417 Job is inserted into the block 600 
+112 Job is inserted into the block 288
+426 Job is waiting
+*/
