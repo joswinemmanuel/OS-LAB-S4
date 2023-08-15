@@ -27,9 +27,9 @@ int main() {
 		p[i].Waiting_Time = p[i].Turn_Around_Time - p[i].Burst_Time;
 	}
 
-	printf("\n      Turn Around Time\t\tWaiting Time\n");
+	printf("\n      Burst Time\tTurn Around Time\tWaiting Time\n");
 	for(int i=0; i<n; i++) {
-		printf("P%d    %d\t\t\t\t%d\n", p[i].Name, p[i].Turn_Around_Time, p[i].Waiting_Time);
+		printf("P%d    %d\t\t\t%d\t\t\t%d\n", p[i].Name, p[i].Burst_Time, p[i].Turn_Around_Time, p[i].Waiting_Time);
 		total_tat += p[i].Turn_Around_Time;
 		total_wt += p[i].Waiting_Time;
 	}
@@ -60,10 +60,10 @@ Enter the Burst Time of P0 : 2
 Enter the Burst Time of P1 : 4
 Enter the Burst Time of P2 : 1
 
-      Turn Around Time          Waiting Time
-P0    2                         0
-P1    6                         2
-P2    7                         6
+      Burst Time        Turn Around Time        Waiting Time
+P0    2                 2                       0
+P1    4                 6                       2
+P2    1                 7                       6
 
 Gantt Chart
 |  P0  |  P1  |  P2  |
