@@ -71,5 +71,23 @@ int main() {
 
 	printf("Page fault : %d\n", no_of_page-page_hit);
 	printf("Page hit : %d\n", page_hit);
-
 }
+
+/*
+Enter the number of pages : 10
+Enter the number of frames : 3
+Enter the reference string : 2 3 4 2 1 3 7 5 4 3
+Page            Frames
+2               2       -1      -1
+3               2       3       -1
+4               2       3       4
+2               page hit
+1               2       1       4
+3               2       1       3
+7               7       1       3
+5               7       5       3
+4               7       5       4
+3               3       5       4
+Page fault : 9
+Page hit : 1
+*/
